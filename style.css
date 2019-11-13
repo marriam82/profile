@@ -1,0 +1,113 @@
+.cover
+{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('imag/back.jpg');
+background-size: 100% 110%;
+width: 100%;
+height: 100vh;
+
+}
+.nav-bar
+{
+width:100%;
+height:120px;
+background-color:rgba(0,0,0,.5);
+}
+.left-bar
+{
+width:25%;
+height:100%;
+line-height: 50px;
+display:inline-block;
+}
+.left-bar h4
+{		
+padding-left: 70px;
+font-weight: bold;
+font-size: 22px;
+color: white;
+font-family: 'Montserrat', sans-serif;
+
+}
+.right-bar
+{
+width: 75%;
+height: 100%;
+display: inline-block;
+
+}
+.right-bar ul li
+{
+font-family: 'Montserrat', sans-serif;
+display:inline-block;
+color: white;
+list-style:none;
+font-size: 15px;
+font-weight:bold;
+line-height: 50px;
+margin-left: 100px;
+text-transform: uppercase;
+}
+.right-bar ul li:nth-child(1)
+{
+color: orange;
+}
+.right-bar ul li:hover
+{
+color: orange;
+}
+.hero-text
+{
+width: 100%;
+margin-top: 180px;
+text-transform: uppercase;
+text-align: center;
+color: white;
+}
+.hero-text h4
+{
+font-size: 14px;
+font-family: 'Montserrat', sans-serif;
+}
+.hero-text h1
+{
+font-size: 62px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+margin:14px 0px;
+
+}
+.hero-text h3
+{
+font-size: 12px;
+font-family: 'Montserrat', sans-serif;
+}
+#btn-1
+{
+border: none;
+background:linear-gradient(45deg,white,transparent);
+font-size: 12px;
+font-weight: bold;
+text-transform: uppercase;
+line-height:40px;
+width:150px;
+font-family:'Montserrat', sans-serif;
+width: 150px;
+font-family:'Montserrat', sans-serif;
+margin-top: 25px;
+border:3px solid white;
+
+}
+#btn-2
+{
+border: none;
+background:linear-gradient(45deg,white,transparent);
+font-size: 12px;
+font-weight: bold;
+text-transform: uppercase;
+line-height:40px;
+width:150px;
+font-family:'Montserrat', sans-serif;
+width: 150px;
+margin-top: 25px;
+border:3px solid white;
+}
